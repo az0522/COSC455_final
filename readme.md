@@ -1,20 +1,20 @@
 Amazon Rainforest Image De-hazing and Classification
 
-File: a.dehaze.py:
-"""
-This file loads all images under 'train_all_jpg' folder and de-haze them.
-The de-hazed images are stored under 'dehazed_all' folder.
+#File: a.dehaze.py:
+#"""
+#This file loads all images under 'train_all_jpg' folder and de-haze them.
+#The de-hazed images are stored under 'dehazed_all' folder.
+#
+#This program implement single image de-hazing using "dark channel prior".
+#https://github.com/He-Zhang/image_dehaze
+#"""
+#"""
+#the 'train_all_jpg" folder is around 700 MB, it is not included in the submission of the final project.
+#'train_jpg/' is available at:
 
-This program implement single image de-hazing using "dark channel prior".
-https://github.com/He-Zhang/image_dehaze
-"""
-"""
-the 'train_all_jpg" folder is around 700 MB, it is not included in the submission of the final project.
-'train_jpg/' is available at:
-
-the 'dehazed_all" folder is around 1 GB, it is not included in the submission of the final project.
-'dehazed_all' is available at:
-"""
+#the 'dehazed_all" folder is around 1 GB, it is not included in the submission of the final project.
+#'dehazed_all' is available at:
+#"""
 
 
 File: b.build_data.py:
